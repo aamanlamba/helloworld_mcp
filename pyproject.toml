@@ -12,6 +12,8 @@ dependencies = [
 mcp-server = "mcpserver.__main__:main"
 
 [build-system]
+# This section is necessary for building the package
+# It specifies the build dependencies and the build backend
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
